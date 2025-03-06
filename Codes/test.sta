@@ -1,0 +1,55 @@
+int a is 5, b is 10, c is 13.
+write "The values are", a,  b,  c. /* Output should be "The values are 5 10 13" */
+newLine.
+
+a is 5 + 10. /* a will be 15 */
+write a.
+newLine.
+
+a is b - c. /* Negative value "a" will take value 0 */
+write a.
+newLine.
+
+text Msg is "Test message".
+write Msg.
+newLine.
+
+b is b + 1.
+write b. /* Output should be 11. */
+newLine.
+
+read "Input your first number: ", a.
+read "Input your second number: ", b.
+a is a + b.
+write "Sum of your numbers is:", a.
+newLine.
+
+int i.
+i is 1.
+loop 10 times
+{  
+   write i.  
+   newLine.
+   i is i + 1.
+}
+newLine.
+
+i is 1.
+loop 10 times
+{  loop i times write "*".
+   newLine.
+   i is i + 1.
+}   
+
+text Str1 is " like home." , Str2.
+Str2 is "There is no place" + Str1.
+write Str2. /* Would print "There is no place like home".*/
+newLine.
+
+text s is "Ohh ice ice baby!".
+text s2.
+s2 is s - "ice".
+write s2.  /* Prints "Ohh  ice baby!"*/
+newLine.
+s2 is s2 - " ice".
+write s2.  /* Prints "Ohh  baby!"*/
