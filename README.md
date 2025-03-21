@@ -54,5 +54,5 @@ write "Hello, ", name.
 This project is licensed under the MIT License.
 
 ## 📩 Contact
-For support or contributions, open an issue or pull request on [GitHub](https://github.com/mrdweeby/Star-Language).
+For any inquiries or contributions, feel free to open an issue or pull request on GitHub.
 
